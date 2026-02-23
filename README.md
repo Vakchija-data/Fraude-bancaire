@@ -13,23 +13,31 @@ Comment une entreprise peut-elle détecter les transactions frauduleuses par car
 
 # Données :
  • 7,5 millions de transactions
+ 
  • Variables temporelles, géographiques, commerçants, montants
 
 # Outils & méthodes :
  • Power BI pour l’exploration et la visualisation
+ 
  • Python (Pandas, NumPy, Matplotlib, Scikit-learn)
+ 
  • Modèles : Régression Logistique & Random Forest
  
 # Résultats :
  • Identification de patterns clairs (montant, pays, période nocturne…)
+ 
  • Random Forest : F1-score ≈ 83%
+ 
  • Bon compromis entre détection de fraude et réduction des faux positifs
 
 # Recommandations :
  • Renforcement des contrôles en début de mois et la nuit
+ 
  • Seuils antifraude dynamiques selon montant et localisation
+ 
  • Authentification forte pour les transactions hors zone habituelle
 
 # Ouvrir le projet 
 - Ouvrir le notebook avec Jupyter Notebook
+  
 - Ouvrir le .pbix avec Power BI Desktop
